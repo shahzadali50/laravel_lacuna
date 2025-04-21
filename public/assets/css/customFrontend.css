@@ -1,0 +1,16 @@
+section {
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+/* Responsive Fix */
+@media only screen and (max-width: 576px) {
+    .product-card .ant-card-body {
+        padding: 10px !important;
+    }
+}
